@@ -23,22 +23,22 @@ flight-booking/
 ├── src/
 │   ├── main/
 │   │   ├── java/az/edu/turing/
-│   │   │   ├── config/           # Konfiqurasiya sinifləri
-│   │   │   ├── controller/       # REST API kontrollerləri
-│   │   │   ├── domain/           # Entity sinifləri
-│   │   │   ├── exception/        # Custom istisnalar (exceptions)
-│   │   │   ├── mapper/           # Entity-DTO çevirmə sinifləri
-│   │   │   ├── model/dto/        # Data Transfer Object (DTO) modelləri
-│   │   │   ├── service/          # Business logic sinifləri
-│   │   │   ├── util/             # Utility funksiyalar
-│   │   │   ├── BookingApp.java   # Application giriş nöqtəsi
-│   │   ├── resources/Flights/    # Uçuşlarla bağlı məlumatlar
+│   │   │   ├── config/           
+│   │   │   ├── controller/       
+│   │   │   ├── domain/           
+│   │   │   ├── exception/          
+│   │   │   ├── mapper/             
+│   │   │   ├── model/dto/         
+│   │   │   ├── service/           
+│   │   │   ├── util/             
+│   │   │   ├── BookingApp.java   
+│   │   ├── resources/Flights/    
 │   ├── test/
-│   │   ├── java/az/edu/turing/   # Unit və integration testlər
-├── .gitignore                    # Git üçün ignore qaydaları
-├── README.md                      # Layihə haqqında sənəd
-├── docker-compose.yml             # Docker konfiqurasiya faylı
-├── pom.xml                        # Maven bağımlılıqları və konfiqurasiyası
+│   │   ├── java/az/edu/turing/      
+├── .gitignore                       
+├── README.md                       
+├── docker-compose.yml             
+├── pom.xml                        
 ```
 
 ## ⚙️ Technologies Used
